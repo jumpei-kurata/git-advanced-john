@@ -6,7 +6,7 @@ package com.example.domain;
  */
 public class Car {
 
-	private int speed;
+	private int speed;    //←publicだめ！
 	private String name;
 
 //	引数ありコンストラクタ
