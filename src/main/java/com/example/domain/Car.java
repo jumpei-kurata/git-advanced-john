@@ -1,12 +1,12 @@
 package com.example.domain;
 /**
  * Carドメイン
- * @author 81907
+ * @author dai
  *
  */
 public class Car {
 
-	private int speed;    //←publicだめ！
+	public int speed;
 	private String name;
 
 //	引数ありコンストラクタ
